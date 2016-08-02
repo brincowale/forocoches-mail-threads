@@ -1,0 +1,25 @@
+{
+  "subforums": [
+    "http://www.forocoches.com/foro/forumdisplay.php?f=2&page=",
+    "http://www.forocoches.com/foro/forumdisplay.php?f=17&page=",
+    "http://www.forocoches.com/foro/forumdisplay.php?f=27&page=",
+    "http://www.forocoches.com/foro/forumdisplay.php?f=23&page="
+  ],
+  "required_words_in_title": ["+prv", "+hd", "+pvr", "+ prv", "+ hd", "+ pvr", "chollo", "gratis"],
+  "avoid_words_in_title": ["+18", "tema serio", "tocho", "semiserio", "temaserio"],
+  "look_for_5_stars_thread": true,
+  "forocoches_base_url": "http://m.forocoches.com/foro/",
+  "mailgun": {
+    "url": "",
+    "apikey": "",
+    "from": "",
+    "to": "",
+  },
+  "mongodb": {"uri": ""},
+  "multithreading": {
+    "thread_number": 10,
+    "network_try_limit": 10,
+    "task_try_limit": 10
+  }
+
+}
